@@ -1,0 +1,24 @@
+---
+layout: post
+title:  "采桑子·明月多情应笑我"
+date:   2017-12-14 14:31:25 +0800
+categories: poet
+---
+{% highlight python %}
+采桑子·明月多情应笑我
+{% endhighlight %}
+年代: 清 作者: 纳兰性德
+明月多情应笑我，
+笑我如今，
+孤负春心，
+独自闲行独自吟。
+
+近来怕说当时事，
+结编兰襟。
+月浅灯深，
+梦里云归何处寻？
+
+
+[jekyll-docs]: https://jekyllrb.com/docs/home
+[jekyll-gh]:   https://github.com/jekyll/jekyll
+[jekyll-talk]: https://talk.jekyllrb.com/
