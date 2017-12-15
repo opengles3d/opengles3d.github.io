@@ -30,7 +30,5 @@ with tf.Session() as sess:
             print(sess.run(next_element, feed_dict={handle:validation_handle}))
 {% endhighlight %}
 
-But if you use training_dataset.make_one_shot_iterator() to get a iterator,you will got "Iterator does not have an initializer" error.
-[jekyll-docs]: https://jekyllrb.com/docs/home
-[jekyll-gh]:   https://github.com/jekyll/jekyll
-[jekyll-talk]: https://talk.jekyllrb.com/
+If you use training_dataset.make_one_shot_iterator() to get a iterator,you will got "Iterator does not have an initializer" error.
+
