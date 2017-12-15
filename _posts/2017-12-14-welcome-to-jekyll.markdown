@@ -4,6 +4,8 @@ title:  "Tensorflow Iterator does not have an initializer"
 date:   2017-12-14 14:31:25 +0800
 categories: python
 ---
+Tensorflow Iterator does not have an initializer
+
 {% highlight python %}
 import tensorflow as tf
 training_dataset = tf.data.Dataset.range(100).map(lambda x: x + tf.random_uniform([],-10, 10, tf.int64)).repeat()
