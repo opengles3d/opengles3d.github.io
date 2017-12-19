@@ -29,7 +29,7 @@ try:
 finally:
     f_in.close()
 
-d = sorted(d.items(), key=lambda d: -d[1])
+d = sorted(d.items(), key=lambda d: d[1], reverse=True)
 for key in d:
     print(key[0], ":", key[1])
 
