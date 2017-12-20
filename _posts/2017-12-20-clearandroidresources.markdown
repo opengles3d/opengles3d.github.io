@@ -5,7 +5,7 @@ date:   2017-12-18 14:31:25 +0800
 categories: android
 ---
 Android Apps UI will change largely,there will be many no use strings in android resources.
-And some Apps may support many languages(locales), for example our App support nearly 60 laocales.
+And some Apps may support many languages(locales), for example, our App support nearly 60 locales.
 So removing no use strings in each locale is a lot of work. So....
 
 {% highlight python %}
