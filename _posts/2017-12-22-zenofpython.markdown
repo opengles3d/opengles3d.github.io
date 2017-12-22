@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "The Zen of Python"
-date:   2017-12-12 14:31:25 +0800
+date:   2017-12-22 14:31:25 +0800
 categories: python
 ---
 
