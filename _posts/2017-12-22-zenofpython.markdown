@@ -4,10 +4,13 @@ title:  "The Zen of Python"
 date:   2017-12-12 14:31:25 +0800
 categories: python
 ---
+
 The Zen of Python, by Tim Peters
 
 {% highlight python %}
+
 import this
+
 {% endhighlight %}
 
 Beautiful is better than ugly.
