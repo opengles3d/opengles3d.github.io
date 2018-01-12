@@ -1,15 +1,15 @@
 ---
 layout: post
-title:  "urlib urlopen Ò»¸öhttps×ÔÇ©ÃûÖ¤ÊéÊ±sslÖ¤Êé´íÎó"
+title:  "urlib urlopen ä¸€ä¸ªhttpsè‡ªç­¾åè¯ä¹¦æ—¶sslè¯ä¹¦é”™è¯¯"
 date:   2018-1-11 14:31:25 +0800
 categories: python
 ---
 
-µ±Äãurllib.urlopenÒ»¸ö https µÄÊ±ºò»áÑéÖ¤Ò»´Î SSL Ö¤Êé
-µ±Ä¿±êÊ¹ÓÃµÄÊÇ×ÔÇ©ÃûµÄÖ¤ÊéÊ±¾Í»á±¬³öÒ»¸ö
-URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed (_ssl.c:581)> µÄ´íÎóÏûÏ¢£¬
-½â¾ö·½°¸°üÀ¨ÏÂÁĞÁ½ÖÖ·½Ê½£º
-1. Ê¹ÓÃssl´´½¨Î´¾­ÑéÖ¤µÄÉÏÏÂÎÄ£¬ÔÚurlopenÖĞ´«ÈëÉÏÏÂÎÄ²ÎÊı
+å½“ä½ urllib.urlopenä¸€ä¸ª https çš„æ—¶å€™ä¼šéªŒè¯ä¸€æ¬¡ SSL è¯ä¹¦
+å½“ç›®æ ‡ä½¿ç”¨çš„æ˜¯è‡ªç­¾åçš„è¯ä¹¦æ—¶å°±ä¼šçˆ†å‡ºä¸€ä¸ª
+URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed (_ssl.c:581)> çš„é”™è¯¯æ¶ˆæ¯ï¼Œ
+è§£å†³æ–¹æ¡ˆåŒ…æ‹¬ä¸‹åˆ—ä¸¤ç§æ–¹å¼ï¼š
+1. ä½¿ç”¨sslåˆ›å»ºæœªç»éªŒè¯çš„ä¸Šä¸‹æ–‡ï¼Œåœ¨urlopenä¸­ä¼ å…¥ä¸Šä¸‹æ–‡å‚æ•°
 {% highlight python %}
 import ssl
 import urllib
@@ -18,7 +18,7 @@ import urllib.request
 context = ssl._create_unverified_context()
 print urllib.request.urlopen(target_url, context=context).read()
 {% endhighlight %}
-2. È«¾ÖÈ¡ÏûÖ¤ÊéÑéÖ¤
+2. å…¨å±€å–æ¶ˆè¯ä¹¦éªŒè¯
 {% highlight python %}
 import ssl
 import urllib
