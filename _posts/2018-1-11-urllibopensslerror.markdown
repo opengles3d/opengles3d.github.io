@@ -18,6 +18,7 @@ import urllib.request
 context = ssl._create_unverified_context()
 print urllib.request.urlopen(target_url, context=context).read()
 {% endhighlight %}
+
 2. 全局取消证书验证
 {% highlight python %}
 import ssl
